@@ -13,6 +13,12 @@
 		90A46DE5261FF42D0033C337 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90A46DE4261FF42D0033C337 /* Assets.xcassets */; };
 		90A46DE8261FF42D0033C337 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90A46DE7261FF42D0033C337 /* Preview Assets.xcassets */; };
 		90A46DEB261FF42D0033C337 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90A46DE9261FF42D0033C337 /* LaunchScreen.storyboard */; };
+		90A46E01261FF5AE0033C337 /* Gunung.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A46E00261FF5AE0033C337 /* Gunung.swift */; };
+		90A46E04261FF5BE0033C337 /* DummyHeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A46E03261FF5BE0033C337 /* DummyHeroes.swift */; };
+		90A46E0E261FF61A0033C337 /* GunungRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A46E0D261FF61A0033C337 /* GunungRow.swift */; };
+		90A46E11261FF6270033C337 /* GunungDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A46E10261FF6270033C337 /* GunungDetail.swift */; };
+		90A46E14261FF6E50033C337 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A46E13261FF6E50033C337 /* About.swift */; };
+		90A46E2526202C710033C337 /* GunungList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A46E2426202C710033C337 /* GunungList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		90A46DE7261FF42D0033C337 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		90A46DEA261FF42D0033C337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90A46DEC261FF42D0033C337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90A46E00261FF5AE0033C337 /* Gunung.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gunung.swift; sourceTree = "<group>"; };
+		90A46E03261FF5BE0033C337 /* DummyHeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyHeroes.swift; sourceTree = "<group>"; };
+		90A46E0D261FF61A0033C337 /* GunungRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GunungRow.swift; sourceTree = "<group>"; };
+		90A46E10261FF6270033C337 /* GunungDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GunungDetail.swift; sourceTree = "<group>"; };
+		90A46E13261FF6E50033C337 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		90A46E2426202C710033C337 /* GunungList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GunungList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +68,9 @@
 		90A46DDD261FF42A0033C337 /* GunungMe */ = {
 			isa = PBXGroup;
 			children = (
-				90A46DDE261FF42A0033C337 /* AppDelegate.swift */,
-				90A46DE0261FF42A0033C337 /* SceneDelegate.swift */,
-				90A46DE2261FF42A0033C337 /* ContentView.swift */,
+				90A46DF5261FF49A0033C337 /* View */,
+				90A46DF4261FF4960033C337 /* Base */,
+				90A46DF3261FF47F0033C337 /* Model */,
 				90A46DE4261FF42D0033C337 /* Assets.xcassets */,
 				90A46DE9261FF42D0033C337 /* LaunchScreen.storyboard */,
 				90A46DEC261FF42D0033C337 /* Info.plist */,
@@ -73,6 +85,36 @@
 				90A46DE7261FF42D0033C337 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		90A46DF3261FF47F0033C337 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				90A46E00261FF5AE0033C337 /* Gunung.swift */,
+				90A46E03261FF5BE0033C337 /* DummyHeroes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		90A46DF4261FF4960033C337 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				90A46DDE261FF42A0033C337 /* AppDelegate.swift */,
+				90A46DE0261FF42A0033C337 /* SceneDelegate.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		90A46DF5261FF49A0033C337 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				90A46DE2261FF42A0033C337 /* ContentView.swift */,
+				90A46E0D261FF61A0033C337 /* GunungRow.swift */,
+				90A46E10261FF6270033C337 /* GunungDetail.swift */,
+				90A46E13261FF6E50033C337 /* About.swift */,
+				90A46E2426202C710033C337 /* GunungList.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +187,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90A46E04261FF5BE0033C337 /* DummyHeroes.swift in Sources */,
 				90A46DDF261FF42A0033C337 /* AppDelegate.swift in Sources */,
 				90A46DE1261FF42A0033C337 /* SceneDelegate.swift in Sources */,
+				90A46E11261FF6270033C337 /* GunungDetail.swift in Sources */,
 				90A46DE3261FF42A0033C337 /* ContentView.swift in Sources */,
+				90A46E01261FF5AE0033C337 /* Gunung.swift in Sources */,
+				90A46E2526202C710033C337 /* GunungList.swift in Sources */,
+				90A46E14261FF6E50033C337 /* About.swift in Sources */,
+				90A46E0E261FF61A0033C337 /* GunungRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
